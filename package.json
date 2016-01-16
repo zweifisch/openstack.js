@@ -1,7 +1,7 @@
 {
-  "name": "openstack.js",
+  "name": "openstack-client",
   "version": "0.0.1",
-  "description": "openstack client for node",
+  "description": "openstack client for nodejs",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
@@ -14,5 +14,14 @@
   "dependencies": {
     "co": "^4.6.0",
     "request-promise": "^2.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zweifisch/openstack.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zweifisch/openstack.js/issues"
+  },
+  "homepage": "https://github.com/zweifisch/openstack.js#readme"
 }
