@@ -3,6 +3,7 @@
 exports.authenticate = require("./lib/openstack").authenticate;
 
 exports.nova = require("./lib/nova");
+exports.glance = require("./lib/glance");
 exports.neutron = require("./lib/neutron");
 exports.keystone = require("./lib/keystone");
 exports.gnocchi = require("./lib/gnocchi");
