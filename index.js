@@ -9,6 +9,9 @@ exports.keystone = require("./lib/keystone");
 exports.gnocchi = require("./lib/gnocchi");
 exports.cinder = require("./lib/cinder");
 exports.heat = require("./lib/heat");
+exports.manila = require("./lib/manila");
+exports.ironic = require("./lib/ironic");
 exports.searchlight = require("./lib/searchlight");
 
 exports.defres = require("./lib/util").defres;
+exports.endpoint = require("./lib/util").endpoint;
