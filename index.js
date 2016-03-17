@@ -12,6 +12,7 @@ exports.heat = require("./lib/heat");
 exports.manila = require("./lib/manila");
 exports.ironic = require("./lib/ironic");
 exports.searchlight = require("./lib/searchlight");
+exports.ceilometer = require("./lib/ceilometer");
 
 exports.defres = require("./lib/util").defres;
 exports.endpoint = require("./lib/util").endpoint;
