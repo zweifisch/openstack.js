@@ -1,6 +1,7 @@
 "use strict";
 
 exports.authenticate = require("./lib/openstack").authenticate;
+exports.rescope = require("./lib/openstack").rescope;
 
 exports.nova = require("./lib/nova");
 exports.glance = require("./lib/glance");
