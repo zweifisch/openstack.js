@@ -1,6 +1,6 @@
 {
   "name": "openstack-client",
-  "version": "0.1.3",
+  "version": "0.2.6",
   "description": "openstack client for nodejs",
   "main": "index.js",
   "scripts": {
