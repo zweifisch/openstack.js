@@ -8,11 +8,13 @@ openstack client for nodejs
 let client = require("openstack-client");
 let token = client.authenticate({
     endpoint: "http://keystone/v3",
-    user:"admin",
+    name:"admin",
     password: "password",
     userDomainName:"Default",
     projectName:"admin",
     projectDomainName:"Default"
 });
-client.nova.server.list(token, "RegionOne");
+client.nova.server.list(token, "RegionOne").then(function(servers) {
+    console.dir(servers);
+});
 ```
